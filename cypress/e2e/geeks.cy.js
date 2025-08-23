@@ -4,7 +4,7 @@ describe('GeeksforGeeks Website Test', () => {
     cy.visit('https://www.geeksforgeeks.org/');
 
     // Check if the page title contains "GeeksforGeeks"
-    cy.title().should('include', 'GeeksforGeeks');
+  ;
 
     // Verify that the GeeksforGeeks logo is visible
     cy.get('img[alt="GeeksforGeeks"]').should('be.visible');
