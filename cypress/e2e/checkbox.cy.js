@@ -52,7 +52,7 @@ describe('Demo QA Website  ElementTests-check', () => {
           '//div[@class="check-box-tree-wrapper"]//ol//li//input[@ID="tree-node-downloads"]'
         ];
         expectedOptions.forEach((option) => {
-          //add
+          
 
 
             cy.xpath(option).should('be.visible');
