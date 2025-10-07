@@ -4,6 +4,7 @@
     "init": "^0.1.2"
   },
   "devDependencies": {
+    "cypress-drag-drop": "^1.1.1",
     "cypress-xpath": "^2.0.1",
     "prettier": "3.6.2"
   }
